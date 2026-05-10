@@ -120,7 +120,7 @@ export default function PremiumSection() {
                 >
                   {/* Icon */}
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 bg-gradient-to-br from-indigo-100 to-purple-100 rounded-xl flex items-center justify-center">
+                    <div className="w-12 h-12 bg-linear-to-br from-indigo-100 to-purple-100 rounded-xl flex items-center justify-center">
                       <feature.icon className="w-6 h-6 text-indigo-600" />
                     </div>
                   </div>

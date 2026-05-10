@@ -19,7 +19,8 @@ export default function Header() {
               alt="FocusMind Logo" 
               className="w-10 h-10 rounded-lg"
             />
-            <span className="text-xl font-semibold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+            {/* Using the standard V4 gradient class for the text clip if it was custom before */}
+            <span className="text-xl font-semibold bg-linear-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
               FocusMind
             </span>
           </div>
@@ -30,6 +31,7 @@ export default function Header() {
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
+                // This class is correct and should work fine in V4
                 className="text-sm font-medium text-gray-700 hover:text-indigo-600 transition-colors duration-200"
               >
                 {item}
@@ -46,7 +48,8 @@ export default function Header() {
               href="https://www.amazon.com/dp/placeholder" 
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-indigo-600 to-purple-600 rounded-lg hover:from-indigo-700 hover:to-purple-700 transition-all duration-200 shadow-md hover:shadow-lg"
+              // FIX: Increased vertical padding (py-3) and used standard V4 gradient utility (bg-linear-to-r)
+              className="px-4 py-3 text-sm font-medium text-white bg-linear-to-r from-indigo-600 to-purple-600 rounded-lg hover:from-indigo-700 hover:to-purple-700 transition-all duration-200 shadow-md hover:shadow-lg"
             >
               Shop Now
             </a>

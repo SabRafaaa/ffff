@@ -1,5 +1,4 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
   "name": "019abc4c-26fb-732b-a9aa-088117316abc",
   "main": "./src/worker/index.ts",
   "compatibility_date": "2025-06-17",

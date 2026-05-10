@@ -1,13 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+@import "tailwindcss";
+
+
+/* Your custom styles here */
 
 :root {
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: 'Dosis''Inter', system-ui, -apple-system, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Sora', 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: 'Dosis''Sora', 'Inter', system-ui, -apple-system, sans-serif;
 }
 
 @layer utilities {
@@ -15,3 +17,4 @@ h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
   }
 }
+
